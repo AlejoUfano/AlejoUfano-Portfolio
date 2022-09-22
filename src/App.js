@@ -1,4 +1,3 @@
-import { Route, Routes } from 'react-router-dom';
 import Home from './Components/pages/Home/Home.jsx'
 import About from './Components/pages/About/About.jsx'
 import Skills from './Components/pages/Skills/Skills.jsx'
@@ -10,7 +9,11 @@ function App() {
   return (
     <>
 
-      <NavBar/>
+      <NavBar />
+      <main className='main'>
+       <Home />
+       <Skills />
+      </main>
 
     </>
   );

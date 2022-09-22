@@ -5,12 +5,12 @@
   --header-height: 3rem;
 
   --hue: 0;
-  --sat: 100%;
-  --title-color: hsl(var(--hue), var(--sat), 100%);
-  --title-color-dark: #5f2fd4;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: #0f0f0f;
-  --container-color: #0f0f0f;
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
 
   --body-font: 'Poppins', sans-serif;
 
@@ -46,7 +46,7 @@
       --h1-font-size: 1.75rem;
       --h2-font-size: 1.35rem;
       --h3-font-size: 1.1rem;
-      --normal-font-size: 1.1rem;
+      --normal-font-size: 1.05rem;
       --small-font-size: 0.95rem;
       --smaller-font-size: .85rem;
   }
@@ -58,7 +58,7 @@
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
+    --normal-font-size: 0.915rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
   }  
@@ -108,7 +108,9 @@ button{
 }
 
 .section {
-padding: 6rem 0 2rem;
+height: 100vh;
+padding: 11rem 0 2rem;
+border: 1px solid magenta;
 }
 
 .section__title {
@@ -126,9 +128,8 @@ margin-bottom: 4rem;
 .section__subtitle {
 text-align: center;
 }
-
 .container {
-max-width: 968px;
+max-width: 1200px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -137,7 +138,7 @@ margin-right: auto;
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
+  padding: .9rem 1.3rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
@@ -155,21 +156,34 @@ align-items: center;
 }
 
 .grid {
-display: grid;
-gap: 1.5rem;
+/* display: grid;
+gap: 1.5rem; */
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }  
+}
+@media screen and (max-width: 950px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }  
+  .section {
+    padding: 7rem 0 2rem;
+    }
 }
 @media screen and (max-width: 768px) {
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
-  }  
+  }
+  .section {
+    padding: 6rem 0 2rem;
+    border: 1px solid red;
+    }
 }
 @media screen and (max-width: 576px) {
   .container {

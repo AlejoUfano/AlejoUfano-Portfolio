@@ -8,9 +8,12 @@
     "@iconscout/react-unicons": "^1.1.6",
     "@iconscout/unicons": "^4.0.1",
     "@mui/material": "^5.10.6",
+    "@react-three/drei": "9.13.2",
+    "@react-three/fiber": "8.2.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/three": "0.143.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
@@ -19,11 +22,9 @@
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
-    "web-vitals": "^2.1.4",
     "three": "0.143.0",
-    "@react-three/drei": "9.13.2",
-    "@react-three/fiber": "8.2.2",
-    "@types/three": "0.143.0"
+    "vanilla-tilt": "^1.7.2",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
