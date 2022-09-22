@@ -18,12 +18,6 @@ export default function NavBar() {
 
                     <li className="nav__item">
                         <a href="" className="nav__link">
-                            <i className="uil uil-user nav__icon"></i> About
-                        </a>
-                    </li>
-
-                    <li className="nav__item">
-                        <a href="" className="nav__link">
                             <i className="uil uil-file-alt nav__icon"></i> Skills
                         </a>
                     </li>
