@@ -13,6 +13,7 @@ function App() {
       <main className='main'>
        <Home />
        <Skills />
+       <Projects />
       </main>
 
     </>
