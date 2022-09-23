@@ -160,6 +160,11 @@ align-items: center;
 gap: 1.5rem; */
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000 !important;
+}
+
 @media screen and (max-width: 1200px) {
   .container {
     margin-left: var(--mb-1-5);
