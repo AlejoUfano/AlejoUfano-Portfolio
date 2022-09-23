@@ -1,0 +1,33 @@
+.skill-text {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+  width: 10%;
+  align-items: center;
+  margin: 0% 3%;
+  justify-content: space-around;
+  color: var(--title-color);
+  font-size: .9rem;
+  transition: 0.25s;
+}
+  
+.skill-img {
+  width: 3rem;
+  transition: 0.25s;
+  filter: drop-shadow(3px 5px 5px #bbbb);
+}
+.skill-text:hover {
+    color: var(--title-color-dark);
+}
+  
+.skill-text:hover .skill-img{
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1000px) {
+    .skill-text {
+        margin: 2.5%;
+        font-size: .8rem;
+    }
+}
