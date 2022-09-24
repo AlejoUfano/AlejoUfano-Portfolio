@@ -1,0 +1,59 @@
+.card__container {
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: .3rem;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    margin: .5rem;
+}
+.contact-icon {
+    display: flex;
+    font-size: 1.8rem;
+    align-self: center;
+    color: var(--title-color);
+    text-decoration: none;
+    transition: .1s;
+}
+.contact-icon:hover {
+    color: #000;
+}
+.social__name {
+    display: flex;
+    align-self: center;
+    color: var(--title-color);
+    font-weight: 500;
+}
+.contact__info {
+    display: flex;
+    align-self: center;
+}
+.write__me {
+    display: flex;
+    text-decoration: none;
+    color: var(--text-color);
+    align-self: center;
+    margin-top: .7rem;
+    transition: .2s;
+}
+.write__me:hover {
+    color: var(--title-color);
+}
+@media screen and (max-width: 1200px) {
+    .card__container {
+        margin: .3rem;
+        padding: .5rem 1.5rem;
+    }
+    .contact-icon {
+        font-size: 1.5rem;
+    }
+    .write__me {
+        margin-top: .4rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card__container {
+        margin: .3rem;
+        padding: .5rem 1.5rem;
+    }
+}
