@@ -4,19 +4,20 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
 import emailjs from 'emailjs-com';
+import SnackBar from '../SnackBar/SnackBar';
 
 const ContactForm = () => {
     let [email, setEmail] = useState({name: '',email: '',message: ''})
     let [emailSent, setEmailSent] = useState(false)
     const style = {
-        "& .MuiOutlinedInput-root": {
-          "&.Mui-focused fieldset": {
-            border: "2px solid rgba(0,0,0,1)",
+        '& .MuiOutlinedInput-root': {
+          '&.Mui-focused fieldset': {
+            border: '2px solid rgba(0,0,0,1)',
             color: '#000'
           }
         },
-        "& label": {
-            "&.Mui-focused": {
+        '& label': {
+            '&.Mui-focused': {
               color: '#000'
             }
           },      
@@ -35,7 +36,6 @@ const ContactForm = () => {
     
       let handleChange = (e) => {
         e.preventDefault()
-        console.log(email);
         setEmail({
           ...email,
           [e.target.name]:e.target.value
@@ -44,43 +44,48 @@ const ContactForm = () => {
   return (
     <form className='form__container' onSubmit={sendEmail}>
         <TextField
-              label="Name"
-              name='name'
-              id="outlined-start-adornment"
+              label='Name'
+              name='name'              
+              id='outlined-start-adornment'
               sx={style}
               placeholder='Insert your name'
               InputProps={{
-                startAdornment: <InputAdornment position="start"></InputAdornment>,
+                startAdornment: <InputAdornment position='start'></InputAdornment>,
               }}
               onChange={(e)=>{handleChange(e)}}
+              required
         />
         <TextField
-          label="Mail"
+          label='Mail'
           name='email'
-          id="outlined-start-adornment"
+          type='email'
+          id='outlined-start-adornment'
           sx={style}
           placeholder='Insert your email'
           InputProps={{
-            startAdornment: <InputAdornment position="start"></InputAdornment>,
+            startAdornment: <InputAdornment position='start'></InputAdornment>,
           }}
           onChange={(e)=>{handleChange(e)}}
+          required
         />
                 <TextField
-          label="Message"
+          label='Message'
           name='message'
           multiline
           rows={4}
-          id="outlined-start-adornment"
+          id='outlined-start-adornment'
           sx={style}
           placeholder='Write your message'
           InputProps={{
-            startAdornment: <InputAdornment position="start"></InputAdornment>,
+            startAdornment: <InputAdornment position='start'></InputAdornment>,
           }}
           onChange={(e)=>{handleChange(e)}}
+          required
         />
-        <button type='submit' className="button button--flex contact__button">
-            Send Message  <i class="uil uil-message" style={{fontSize: '23px',marginLeft:'.2rem'}}></i>
+        <button type='submit' className='button button--flex contact__button'>
+            Send Message  <i class='uil uil-message' style={{fontSize: '23px',marginLeft:'.2rem'}}></i>
         </button>
+        {emailSent&&(<SnackBar/>)}
     </form>
   )
 }
