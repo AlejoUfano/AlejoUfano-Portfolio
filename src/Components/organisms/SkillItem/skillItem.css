@@ -3,13 +3,14 @@
   display: flex;
   flex-direction: column;
   height: 10%;
-  width: 10%;
+  width: 5rem;
   align-items: center;
-  margin: 0% 3%;
-  justify-content: space-around;
+  margin: 0% 4%;
+  justify-content: center;
   color: var(--title-color);
   font-size: .9rem;
   transition: 0.25s;
+  text-shadow: 2px 2px 9px rgba(0,0,0,0.3);
 }
   
 .skill-img {
@@ -30,4 +31,14 @@
         margin: 2.5%;
         font-size: .8rem;
     }
+}
+@media screen and (max-width: 350px) {
+  .skill-text {
+    width: 4rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .skill-text {
+    width: 3rem;
+  }
 }
