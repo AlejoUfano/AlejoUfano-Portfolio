@@ -13,18 +13,18 @@ const Home = () => {
     window.addEventListener('resize', handleResize)
   },[])
   return (
-    <div className="home__container" id="">
+    <div className='home__container' id='home'>
 
     <div className='home__wrapper'>
-        <div className="social__container">
+        <div className='social__container'>
           <Social/>
         </div>
   
       <div className='info__wrapper'>
-          <div className="info__container">
+          <div className='info__container'>
             <Data/> 
           </div>
-          <div className="img__container"/>
+          <div className='img__container'/>
       </div>
     </div>
       {width > 768 ? <ScrollDown/> : null}
