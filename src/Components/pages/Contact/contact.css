@@ -1,0 +1,118 @@
+.contact__global-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact__title {
+    display: flex;
+    font-size: 3.5rem;
+    color: var(--title-color);
+    font-weight: 600;
+}
+.elements__container {
+    display: flex;
+    width: 60%;
+    max-width: 1100px;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+}
+.cards__container {
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+}
+.cards__title {
+    display: flex;
+    font-size: 1.2rem;
+    color: var(--title-color);
+    font-weight: 500;
+    align-items: center;
+    align-self: center;
+    margin: 1.25rem;
+    text-align: center;
+}
+.message__container {
+    display: flex;
+    width: 40%;
+    height: 90%;
+    flex-direction: column;
+}
+.message__title {
+    display: flex;
+    font-size: 1.2rem;
+    color: var(--title-color);
+    font-weight: 500;
+    align-self: center;
+    margin: 1.25rem;
+}
+@media screen and (max-width: 1700px) {
+    .elements__container {
+        width: 65%;
+    }
+    .message__container {
+        width: 50%;
+    }     
+    .elements__container {
+        margin-bottom: 1rem;
+    }
+    .cards__title {
+        margin: 1rem;
+    }   
+    .message__title {
+        margin: 1rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .elements__container {
+        width: 70%;
+    }
+    .message__container {
+        width: 50%;
+    }
+    .elements__container {
+        margin-bottom: 3rem;
+    }
+    .cards__title {
+        margin: .5rem;
+    }   
+    .message__title {
+        margin: .5rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .elements__container {
+        width: 75%;
+    }
+    .message__container {
+        width: 50%;
+    }
+    .elements__container {
+        margin-bottom: 3rem;
+    }
+    .cards__title {
+        margin: .3rem;
+    }   
+    .message__title {
+        margin: .3rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .elements__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards__container {
+        height: auto;
+    }
+    .message__container {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .message__container {
+        width: 90%;
+    }
+}
