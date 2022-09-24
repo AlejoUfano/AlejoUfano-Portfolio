@@ -3,9 +3,12 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
+    height: auto;
+    padding-top: 10vh;
 }
 .contact__title {
+    margin-top: 1rem;
     display: flex;
     font-size: 3.5rem;
     color: var(--title-color);
@@ -93,13 +96,17 @@
         margin-bottom: 3rem;
     }
     .cards__title {
-        margin: .3rem;
+        margin-bottom: .3rem;
     }   
     .message__title {
         margin: .3rem;
     }
 }
 @media screen and (max-width: 768px) {
+    .contact__global-container {
+        height: auto;
+        padding-top: 4vh;
+    }
     .elements__container {
         flex-direction: column;
         align-items: center;
@@ -113,6 +120,6 @@
 }
 @media screen and (max-width: 500px) {
     .message__container {
-        width: 90%;
+        width: 100%;
     }
 }
