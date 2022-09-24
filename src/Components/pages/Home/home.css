@@ -32,9 +32,11 @@
     color: var(--title-color);
     text-decoration: none;
     font-size: 1.75rem;
+    transition: .3s;
 }
 .home__social-icon:hover {
     color: #000;
+    transform: scale(1.1);
 
 }
 /* =================INFO================= */
@@ -157,5 +159,11 @@
         display: flex;
         align-self: flex-start;
         margin-top: 6vh;
+    }
+}
+@media screen and (max-width: 300px) {
+    .img__container {
+        width: 200px;
+        height: 200px;
     }
 }
