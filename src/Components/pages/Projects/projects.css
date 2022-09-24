@@ -1,17 +1,21 @@
 .projects__global {
     display: flex;
-    margin-top: 4vh;
-    height: 96vh;
+    height: 100vh;
     width: 100%;
+    padding-top: 6vh;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    transition: .3s;
 }
 .projects__title {
     display: flex;
     font-size: 3.5rem;
     color: var(--title-color);
     font-weight: 600;
+}
+.projects__subtitle {
+    display: flex;
 }
 .projects__cards-container {
     display: flex;
@@ -41,6 +45,9 @@
     }
 }
 @media screen and (max-width: 768px) {
+    .projects__global {
+        justify-content: start;
+    }
     .projects__cards-container {
         width: 80%;
     }
@@ -48,5 +55,10 @@
 @media screen and (max-width: 500px) {
     .projects__cards-container {
         width: 95%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .projects__cards-container {
+        width: 100%;
     }
 }

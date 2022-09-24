@@ -17,13 +17,11 @@ export default function Projects() {
     window.addEventListener('resize', handleResize)
   },[])
   return (
-    <div className='projects__global'>
-      <div className="projects__title title">Projects</div>
-      <div className="projects__cards-container">
-        {/* {projects.map(p=>(
-          <ProjectCard key={p.title} {...p}/>
-        ))} */}
-
+    <div className='projects__global' id='projects' >
+      <div className='projects__title title'>Projects</div>
+      {/* <div className='projects__subtitle'>Recent Projects</div> */}
+      <div className='projects__cards-container'>
+        
         <Swiper
           modules = {[Navigation, EffectFade]}
           navigation
