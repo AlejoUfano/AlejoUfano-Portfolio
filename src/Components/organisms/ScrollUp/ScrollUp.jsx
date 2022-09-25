@@ -10,7 +10,7 @@ const ScrollUp = () => {
     })
   return (
     <Link to='home' spy={true} smooth={true} offset={-50} duration={500} className='scrollup'>
-        <i className='uil uil-arrow-up scrollup-icon'></i>
+        <i className='uil uil-arrow-up scrollup-icon' style={{ backgroundColor:'transparent' }}></i>
     </Link>
   )
 }
