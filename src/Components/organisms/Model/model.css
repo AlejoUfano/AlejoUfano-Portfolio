@@ -1,0 +1,44 @@
+.model {
+    align-self: center;
+    display: flex;
+    width: 500px;
+    height: 100%;
+    padding-bottom: 15vh;
+}
+@media screen and (max-width: 1500px) {
+    .model {
+        width: 450px;
+    }    
+}
+@media screen and (max-width: 1200px) {
+    .model {
+        width: 400px;
+    }    
+}
+@media screen and (max-width: 1000px) {
+    .model {
+        width: 375px;
+    }    
+}
+@media screen and (max-width: 900px) {
+    .model {
+        width: 300px;
+    }    
+}
+@media screen and (max-width: 768px) {
+    .model {
+        width: 300px;
+        height: 300px;
+        padding-bottom: 0;
+    }    
+}
+@media screen and (max-width: 500px) {
+    .model {
+        width: 250px;
+    }    
+}
+@media screen and (max-width: 300px) {
+    .model {
+        width: 200px;
+    }    
+}
