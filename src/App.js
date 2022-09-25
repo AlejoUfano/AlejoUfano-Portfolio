@@ -16,7 +16,7 @@ function App() {
         <Projects />
         <Contact />
       </main>
-      <Footer />
+      {/* <Footer /> */}
       <ScrollUp />
     </>
   );
