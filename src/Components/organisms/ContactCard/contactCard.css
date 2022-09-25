@@ -15,7 +15,7 @@
     transition: .1s;
 }
 .contact-icon:hover {
-    color: #000;
+    color: var(--title-color-dark);
 }
 .social__name {
     display: flex;

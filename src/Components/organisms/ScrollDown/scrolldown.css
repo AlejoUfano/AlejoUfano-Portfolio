@@ -3,19 +3,18 @@
     display: flex;
     width: max-content;
     align-self: flex-start;
-    margin-left: 13rem;
+    margin-top: 7vh;
     justify-content: center;
     text-align: center;
     align-items: center;
     color: var(--title-color);
     font-weight: var(--font-medium);
-    margin-top: 10vh;
   }
   .mousey {
     width: 3px;
     padding: 7px 11px;
     height: 27px;
-    border: 2px solid #000;
+    border: 2px solid var(--title-color-dark);
     border-radius: 25px;
     opacity: 0.75;
     box-sizing: content-box;
@@ -25,7 +24,7 @@
     width: 3px;
     height: 10px;
     border-radius: 25%;
-    background-color: #000;
+    background-color: var(--title-color-dark);
     animation-name: scroll;
     animation-duration: 2s;
     animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
@@ -47,26 +46,4 @@
   .arrow {
     margin-left: .25rem;
     font-size: 1.25rem;
-  }
-  @media screen and (max-width: 1500px) {
-    .scroll-downs {
-      margin-left: 12rem;
-    }
-  }
-  @media screen and (max-width: 1320px) {
-    .scroll-downs {
-      margin-left: 14%;
-    }
-  }
-  @media screen and (max-width: 1000px) {
-    .scroll-downs {
-      margin-top: 5vh;
-      margin-left: 9%;
-    }
-  }
-  @media screen and (max-width: 1000px) {
-    .scroll-downs {
-      margin-top: 3vh;
-      margin-left: 10%;
-    }
   }
