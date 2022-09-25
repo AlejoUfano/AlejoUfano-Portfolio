@@ -1,0 +1,45 @@
+.model2 {
+    align-self: center;
+    display: flex;
+    width: 500px;
+    height: 100%;
+    padding-bottom: 3vh;
+}
+@media screen and (max-width: 1500px) {
+    .model2 {
+        width: 450px;
+    }    
+}
+@media screen and (max-width: 1200px) {
+    .model2 {
+        width: 400px;
+    }    
+}
+@media screen and (max-width: 1000px) {
+    .model2 {
+        width: 375px;
+    }    
+}
+@media screen and (max-width: 900px) {
+    .model2 {
+        width: 270px;
+    }    
+}
+@media screen and (max-width: 768px) {
+    .model2 {
+        width: 300px;
+        height: 300px;
+        padding-bottom: 0vh;
+        align-self: center;
+    }    
+}
+@media screen and (max-width: 500px) {
+    .model2 {
+        width: 250px;
+    }    
+}
+@media screen and (max-width: 300px) {
+    .model2 {
+        width: 200px;
+    }    
+}
