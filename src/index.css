@@ -11,6 +11,7 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
+  --background-color: hsl(var(--hue), var(--sat), 10%);
 
   --body-font: 'Poppins', sans-serif;
 
@@ -64,10 +65,22 @@
   }  
 }
 
+body.dark-theme {
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 100%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
+  --background-color: hsl(var(--hue), var(--sat), 10%);
+}
+
 * {
 box-sizing: border-box;
 padding: 0;
 margin: 0;
+/* background-color: var(--background-color); */
 }
 
 html {
