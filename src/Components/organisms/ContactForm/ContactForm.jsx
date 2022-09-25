@@ -83,7 +83,7 @@ const ContactForm = () => {
           required
         />
         <button type='submit' className='button button--flex contact__button'>
-            Send Message  <i class='uil uil-message' style={{fontSize: '23px',marginLeft:'.2rem'}}></i>
+            Send Message  <i class='uil uil-message' style={{fontSize: '23px',marginLeft:'.2rem', backgroundColor: 'transparent'}}></i>
         </button>
         {emailSent&&(<SnackBar/>)}
     </form>
