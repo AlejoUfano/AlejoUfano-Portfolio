@@ -4,6 +4,7 @@
     width: 500px;
     height: 100%;
     padding-bottom: 15vh;
+    cursor: pointer;
 }
 @media screen and (max-width: 1500px) {
     .model {
