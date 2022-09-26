@@ -48,7 +48,7 @@ export default function NavBar({ darkmode, setDarkmode }) {
                             setIcon(!icon)
                             setDarkmode(!darkmode)
                             }}>
-                            <i class={icon ? 'uil uil-moon change-theme' : 'uil uil-sun change-theme'} id='theme-button'></i>
+                            <i class={icon ? 'uil uil-sun change-theme' : 'uil uil-moon change-theme'} id='theme-button'></i>
                         </div>
                     </li>}
                 </ul>
@@ -59,7 +59,7 @@ export default function NavBar({ darkmode, setDarkmode }) {
                     setIcon(!icon)
                     setDarkmode(!darkmode)
                     }}>
-                    <i class={icon ? 'uil uil-moon change-theme' : 'uil uil-sun change-theme'} id='theme-button'></i>
+                    <i class={icon ? 'uil uil-sun change-theme' : 'uil uil-moon change-theme'} id='theme-button'></i>
                 </div>}
                 <div className='nav__toggle' onClick={()=>showMenu(!Toggle)}>
                     <i class='uil uil-apps'></i>
