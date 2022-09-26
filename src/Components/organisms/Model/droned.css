@@ -1,0 +1,45 @@
+.droned {
+    align-self: center;
+    display: flex;
+    width: 500px;
+    height: 100%;
+    padding-bottom: 5vh;
+    cursor: pointer;
+}
+@media screen and (max-width: 1500px) {
+    .droned {
+        width: 450px;
+    }    
+}
+@media screen and (max-width: 1200px) {
+    .droned {
+        width: 400px;
+    }    
+}
+@media screen and (max-width: 1000px) {
+    .droned {
+        width: 375px;
+    }    
+}
+@media screen and (max-width: 900px) {
+    .droned {
+        width: 300px;
+    }    
+}
+@media screen and (max-width: 768px) {
+    .droned {
+        width: 300px;
+        height: 300px;
+        padding-bottom: 0;
+    }    
+}
+@media screen and (max-width: 500px) {
+    .droned {
+        width: 250px;
+    }    
+}
+@media screen and (max-width: 300px) {
+    .droned {
+        width: 200px;
+    }    
+}
