@@ -26,7 +26,7 @@ const Skills = () => {
       tiltReverse = {false}
       glareEnable = {true}
       glareMaxOpacity = {1}
-      glareColor = '#BBBBBB'>
+      glareColor = 'var(--tilt-glare)'>
 
         {skills.map((s) => (
           <SkillItem key={s.title} {...s} />

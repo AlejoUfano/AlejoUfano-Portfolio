@@ -10,13 +10,13 @@
   color: var(--title-color);
   font-size: .9rem;
   transition: 0.25s;
-  text-shadow: 2px 2px 9px rgba(0,0,0,0.3);
+  text-shadow: var(--skill-text-shadow);
 }
   
 .skill-img {
   width: 3rem;
   transition: 0.25s;
-  filter: drop-shadow(3px 5px 5px #bbbb);
+  filter: drop-shadow(var(--skill-drop-shadow));
 }
 .skill-text:hover {
     color: var(--title-color-dark);
