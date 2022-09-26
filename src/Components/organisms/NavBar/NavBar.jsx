@@ -1,9 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './navBar.css'
 import { Link } from 'react-scroll'                                                                                                                                                                                           
 
-export default function NavBar() {
+export default function NavBar({ darkmode, setDarkmode }) {
+    let [icon, setIcon] = useState(false)
     let [Toggle, showMenu] = useState(false)
+    const [width, setWidth] = useState(window.innerWidth)
+    useEffect(() => {
+      function handleResize() {
+        setWidth(window.innerWidth)    
+  }
+      window.addEventListener('resize', handleResize)
+    },[])
   return (
     <header className='header'>
         <nav className='nav container'>
@@ -34,12 +42,28 @@ export default function NavBar() {
                             <i className='uil uil-message nav__icon'></i> Contact
                         </Link>
                     </li>
+                    {width>768&&<li>
+                        <div className='change__theme' onClick={()=>{
+                            document.body.classList.toggle('dark-theme')
+                            setIcon(!icon)
+                            setDarkmode(!darkmode)
+                            }}>
+                            <i class={icon ? 'uil uil-moon change-theme' : 'uil uil-sun change-theme'} id='theme-button'></i>
+                        </div>
+                    </li>}
                 </ul>
                 <i class='uil uil-times nav__close' onClick={()=>showMenu(!Toggle)}></i>
             </div>
-            <div className='nav__toggle' onClick={()=>showMenu(!Toggle)}>
-                <i class='uil uil-apps'></i>
-            </div>
+                {width<=768&&<div className='change__theme__mobile' onClick={()=>{
+                    document.body.classList.toggle('dark-theme')
+                    setIcon(!icon)
+                    setDarkmode(!darkmode)
+                    }}>
+                    <i class={icon ? 'uil uil-moon change-theme' : 'uil uil-sun change-theme'} id='theme-button'></i>
+                </div>}
+                <div className='nav__toggle' onClick={()=>showMenu(!Toggle)}>
+                    <i class='uil uil-apps'></i>
+                </div>
         </nav>
     </header>
   )
