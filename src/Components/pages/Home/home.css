@@ -69,6 +69,7 @@
 }
 .button__home {
     width: max-content;
+    cursor: pointer;
 }
 .title {
     margin-bottom: 2vh;
