@@ -17,8 +17,8 @@
     height: 80%;
     max-width: 1100px;
     border-radius: 1rem;
-    border: 1px solid rgba(0,0,0,0.1);
-    box-shadow: 0px 10px 16px 0px rgba(201, 201, 201, 0.1);
+    border: var(--tilt-border);
+    box-shadow: var(--tilt-boxshadow);
     padding: 2rem;
     flex-wrap: wrap;
     justify-content: space-around;
