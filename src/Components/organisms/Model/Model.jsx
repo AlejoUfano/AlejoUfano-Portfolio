@@ -1,4 +1,3 @@
-
 import React, { Suspense, useRef } from 'react'
 import './model.css'
 import { Drone } from './Drone'
