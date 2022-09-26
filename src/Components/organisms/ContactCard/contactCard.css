@@ -1,6 +1,6 @@
 .card__container {
     display: flex;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid var(--border-color);
     border-radius: .3rem;
     flex-direction: column;
     padding: 1rem 3rem;
