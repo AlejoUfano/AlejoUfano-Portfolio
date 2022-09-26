@@ -12,6 +12,22 @@
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
   --background-color: hsl(var(--hue), var(--sat), 10%);
+  --border-color: rgba(0,0,0,0.1);
+  --border-top-color: rgba(0,0,0,0.2);
+  --skill-text-shadow: 2px 2px 9px rgba(0,0,0,0.3);
+  --skill-drop-shadow: 3px 5px 5px #bbbb;
+  --tilt-border: 1px solid rgba(0,0,0,0.1);
+  --tilt-boxshadow : 0px 10px 16px 0px rgba(201, 201, 201, 0.1);
+  --tilt-glare: #bbbb;
+  --project-boxshadow: 0px 10px 16px 0px rgba(0,0,0,0.1);
+  --project-hover-boxshadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
+  --project-description-textshadow: 2px 2px 5px rgba(0,0,0,0.2);
+  --contact-border: 2px solid rgba(0,0,0,1);
+  --contact-color: #000;
+  --contact-text-color: rgba(0, 0, 0, 1);
+  --textfield-border-color:rgba(0, 0, 0, .2);
+  --hover-textfield: rgba(0, 0, 0, 1);
+  --label-color: rgba(0, 0, 0, .7);
 
   --body-font: 'Poppins', sans-serif;
 
@@ -68,12 +84,29 @@
 body.dark-theme {
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 100%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --title-color: rgba(255,255,255,0.8);
+  --title-color-dark: rgba(255,255,255,1);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --body-color: #111111;
+  --container-color: #111111;
   --background-color: hsl(var(--hue), var(--sat), 10%);
+  background-color: #111111;
+  --border-color: rgba(255,255,255,.04);
+  --border-top-color: rgba(255,255,255,0.1);
+  --skill-text-shadow: 2px 2px 9px rgba(0,0,0,1);
+  --skill-drop-shadow: 3px 5px 5px rgba(0,0,0,0.9);
+  --tilt-border: 1px solid rgba(255,255,255,0.02);
+  --tilt-boxshadow : 0px 10px 16px 0px rgba(0,0,0,0.2);
+  --tilt-glare: #4444;
+  --project-boxshadow: 3px 3px 15px 0px rgba(0,0,0,0.1);
+  --project-hover-boxshadow: 6px 6px 15px 0px rgba(0,0,0,0.2);
+  --project-description-textshadow: 2px 2px 5px rgba(0,0,0,0.8);
+  --contact-border: 2px solid rgba(255,255,255,1);
+  --contact-color: #fff;
+  --contact-text-color: rgba(255, 255, 255, 1);
+  --textfield-border-color:rgba(255, 255, 255, .3);
+  --hover-textfield: rgba(255, 255, 255, 1);
+  --label-color: rgba(255, 255, 255, .7);
 }
 
 * {
@@ -118,6 +151,22 @@ button{
   cursor: pointer;
   border: none;
   outline: none;
+}
+.cursor {
+  position: absolute;
+  pointer-events: none;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  z-index: 10;
+}
+@media only screen and (max-width: 800px) {
+  .cursor {
+    display: none;
+  }
 }
 
 .section {
@@ -175,7 +224,13 @@ gap: 1.5rem; */
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #000 !important;
+  color: var(--title-color) !important;
+  transition: .2s;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: var(--title-color-dark) !important;
+  transition: .2s;
 }
 
 @media screen and (max-width: 1200px) {
