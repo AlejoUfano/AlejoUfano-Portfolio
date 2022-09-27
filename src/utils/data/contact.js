@@ -3,7 +3,7 @@ export const contact = [
         icon: 'uil uil-linkedin-alt',
         name: 'LinkedIn',
         contact: 'Alejo Ufano',
-        link: 'https://www.linkedin.com/in/alejo-ufano-837a68244/'
+        link: 'https://www.linkedin.com/in/alejo-ufano/'
     },
     {
         icon: 'uil uil-whatsapp',
