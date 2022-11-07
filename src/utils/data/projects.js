@@ -2,7 +2,7 @@ import dogs from '../../Assets/projects/dogsSpaAlejoUfano.png'
 import ecommerce from '../../Assets/projects/kembaEcommerceAlejoUfano.png'
 import weatherApp from '../../Assets/projects/weatherAppAlejoUfano.png'
 import foodApp from '../../Assets/projects/TwistedFoodAppAlejoUfano.png'
-import ecommerceHomePage from '../../Assets/projects/EcommerceLandingPageAlejoUfano.png'
+import ecommerceHomePage from '../../Assets/projects/EcommerceHomePageAlejoUfano.png'
 
 export const projects = [
     {
