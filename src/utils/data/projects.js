@@ -2,6 +2,7 @@ import dogs from '../../Assets/projects/dogsSpaAlejoUfano.png'
 import ecommerce from '../../Assets/projects/kembaEcommerceAlejoUfano.png'
 import weatherApp from '../../Assets/projects/weatherAppAlejoUfano.png'
 import foodApp from '../../Assets/projects/TwistedFoodAppAlejoUfano.png'
+import ecommerceHomePage from '../../Assets/projects/EcommerceLandingPageAlejoUfano.png'
 
 export const projects = [
     {
@@ -32,5 +33,12 @@ export const projects = [
         description: 'Twisted Food. App with features such as menu, hot dishes and fruits section, shopping cart, login, option to add new products when logged as admin, etc.',
         link: 'https://twisted-food-app.vercel.app/',
         repository: 'https://github.com/AlejoUfano/TwistedFoodApp'
+    },
+    {
+        img: ecommerceHomePage,
+        title: 'Ecommerce Home Page',
+        description: 'Development of a home page of an ecommerce of furniture, smart phones, watches, etc. Using mainly JS and Bootstrap.',
+        link: 'https://e-commerce-tau-two.vercel.app/home',
+        repository: 'https://github.com/AlejoUfano/E-Commerce'
     }
 ]
