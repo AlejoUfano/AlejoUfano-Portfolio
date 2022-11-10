@@ -36,8 +36,8 @@ export const projects = [
     },
     {
         img: ecommerceHomePage,
-        title: 'Ecommerce Home Page',
-        description: 'Development of a home page of an ecommerce of furniture, smart phones, watches, etc. Using mainly JS and Bootstrap.',
+        title: 'Multimart',
+        description: 'Development of an ecommerce of furniture, smart phones, watches, etc. Using mainly JS and Bootstrap. (In Progress)',
         link: 'https://e-commerce-tau-two.vercel.app/home',
         repository: 'https://github.com/AlejoUfano/E-Commerce'
     }
