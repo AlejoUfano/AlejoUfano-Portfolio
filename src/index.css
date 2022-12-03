@@ -270,3 +270,13 @@ gap: 1.5rem; */
     margin-right: var(--mb-1);
   }  
 }
+/* =============CUSTOM SCROLLBAR================ */
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: var(--textfield-border-color);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: var(--background-color);
+}
