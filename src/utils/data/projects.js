@@ -3,8 +3,30 @@ import ecommerce from '../../Assets/projects/kembaEcommerceAlejoUfano.png'
 import weatherApp from '../../Assets/projects/weatherAppAlejoUfano.png'
 import foodApp from '../../Assets/projects/TwistedFoodAppAlejoUfano.png'
 import ecommerceHomePage from '../../Assets/projects/EcommerceHomePageAlejoUfano.png'
+import NFTs from '../../Assets/projects/NFTsAlejoUfano.png'
 
 export const projects = [
+    {
+        img: NFTs,
+        title: 'NFTs App',
+        description: 'Development of an React NFTs website with multiple functionalities using mainly JS and Bootstrap. (In Progress)',
+        link: 'https://nfts-alejo-ufano.vercel.app/home',
+        repository: 'https://github.com/AlejoUfano/NFTs'
+    },    
+    {
+        img: ecommerceHomePage,
+        title: 'Multimart',
+        description: 'Development of an ecommerce of furniture, smart phones, watches, etc. Using mainly JS, react-redux and Bootstrap.',
+        link: 'https://e-commerce-tau-two.vercel.app/home',
+        repository: 'https://github.com/AlejoUfano/E-Commerce'
+    },
+    {
+        img: foodApp,
+        title: 'Food App',
+        description: 'Twisted Food. App with features such as menu, hot dishes and fruits section, shopping cart, login, option to add new products when logged as admin, etc.',
+        link: 'https://twisted-food-app.vercel.app/',
+        repository: 'https://github.com/AlejoUfano/TwistedFoodApp'
+    },   
     {
         img: dogs,
         title: 'Dogs SPA',
@@ -26,19 +48,5 @@ export const projects = [
         description: 'Development of a simple Weather App consuming an API (Openweathermap). With details such as temperature, humidity, weather, wind speed, etc.',
         link: 'https://weather-app-au.vercel.app/',
         repository: 'https://github.com/AlejoUfano/WeatherApp'
-    },
-    {
-        img: foodApp,
-        title: 'Food App',
-        description: 'Twisted Food. App with features such as menu, hot dishes and fruits section, shopping cart, login, option to add new products when logged as admin, etc.',
-        link: 'https://twisted-food-app.vercel.app/',
-        repository: 'https://github.com/AlejoUfano/TwistedFoodApp'
-    },
-    {
-        img: ecommerceHomePage,
-        title: 'Multimart',
-        description: 'Development of an ecommerce of furniture, smart phones, watches, etc. Using mainly JS and Bootstrap. (In Progress)',
-        link: 'https://e-commerce-tau-two.vercel.app/home',
-        repository: 'https://github.com/AlejoUfano/E-Commerce'
     }
 ]
