@@ -9,7 +9,7 @@ export const projects = [
     {
         img: NFTs,
         title: 'NFTs App',
-        description: 'Development of an React NFTs website with multiple functionalities using mainly JS and Bootstrap. (In Progress)',
+        description: 'Development of an React NFTs website with multiple functionalities using mainly JS and Bootstrap.',
         link: 'https://nfts-alejo-ufano.vercel.app/home',
         repository: 'https://github.com/AlejoUfano/NFTs'
     },    
