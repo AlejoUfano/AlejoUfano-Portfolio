@@ -4,6 +4,7 @@ import weatherApp from '../../Assets/projects/weatherAppAlejoUfano.png'
 import foodApp from '../../Assets/projects/TwistedFoodAppAlejoUfano.png'
 import ecommerceHomePage from '../../Assets/projects/EcommerceHomePageAlejoUfano.png'
 import NFTs from '../../Assets/projects/NFTsAlejoUfano.png'
+import GPT3 from '../../Assets/projects/GPT3AlejoUfano.png'
 
 export const projects = [
     {
@@ -12,6 +13,13 @@ export const projects = [
         description: 'Development of an React NFTs website with multiple functionalities using mainly JS and Bootstrap.',
         link: 'https://nfts-alejo-ufano.vercel.app/home',
         repository: 'https://github.com/AlejoUfano/NFTs'
+    },
+    {
+        img: GPT3,
+        title: 'GPT3 App',
+        description: 'Front End project. Modern App about GPT3, using only React and CSS.',
+        link: 'https://alejo-ufano-gpt3.vercel.app/',
+        repository: 'https://github.com/AlejoUfano/GPT3'
     },    
     {
         img: ecommerceHomePage,
