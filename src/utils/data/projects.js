@@ -5,6 +5,7 @@ import foodApp from '../../Assets/projects/TwistedFoodAppAlejoUfano.png'
 import ecommerceHomePage from '../../Assets/projects/EcommerceHomePageAlejoUfano.png'
 import NFTs from '../../Assets/projects/NFTsAlejoUfano.png'
 import GPT3 from '../../Assets/projects/GPT3AlejoUfano.png'
+import gerichtRestaurant from '../../Assets/projects/gerichtRestaurantAlejoUfano.png'
 
 export const projects = [
     {
@@ -20,6 +21,13 @@ export const projects = [
         description: 'Front End project. Modern App about GPT3, using only React and CSS.',
         link: 'https://alejo-ufano-gpt3.vercel.app/',
         repository: 'https://github.com/AlejoUfano/GPT3'
+    }, 
+    {
+        img: gerichtRestaurant,
+        title: 'Gericht Restaurant',
+        description: 'Front End project. Development of a modern restaurant home page, using only React and CSS.',
+        link: 'https://gericht-restaurant-alejo-ufano.vercel.app/',
+        repository: 'https://github.com/AlejoUfano/Gericht-Restaurant'
     },    
     {
         img: ecommerceHomePage,
