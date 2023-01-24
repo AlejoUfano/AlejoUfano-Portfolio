@@ -7,6 +7,7 @@ import 'swiper/css';
 import { Navigation, EffectFade } from 'swiper'
 import 'swiper/css/navigation'
 import 'swiper/css/effect-fade'
+import { motion } from 'framer-motion';
 
 export default function Projects() {
   const [width, setWidth] = useState(window.innerWidth)
@@ -20,7 +21,17 @@ export default function Projects() {
     <div className='projects__global' id='projects' >
       <div className='projects__title title'>Projects</div>
       {/* <div className='projects__subtitle'>Recent Projects</div> */}
-      <div className='projects__cards-container'>
+      <motion.div 
+      className='projects__cards-container'
+      initial='hidden'
+      whileInView='visible'
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0.4 }}
+      variants={{
+        hidden: { opacity: 0, x:-50 },
+        visible: { opacity: 1, x: 0},
+      }}
+      >
         
         <Swiper
           modules = {[Navigation, EffectFade]}
@@ -36,7 +47,7 @@ export default function Projects() {
           ))}
         </Swiper>
 
-      </div>
+      </motion.div>
     </div>
   )
 }
