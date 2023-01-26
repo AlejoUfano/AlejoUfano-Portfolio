@@ -14,7 +14,7 @@ export const projects = [
         title: 'EVOGYM',
         description: 'Modern Fitness App, using mainly Typescript, React, Tailwind and Framer-motion for animations. (In Progress).',
         link: 'https://evogym-alejo-ufano.vercel.app/',
-        repository: 'https://github.com/AlejoUfano/gym-app-typescript-tailwind'
+        repository: 'https://github.com/AlejoUfano/evogym-typescript'
     },
     {
         img: NFTs,
