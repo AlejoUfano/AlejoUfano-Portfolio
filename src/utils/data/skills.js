@@ -5,7 +5,7 @@ import git from '../../Assets/skills/git.png';
 import html from '../../Assets/skills/html.png';
 import javascript from '../../Assets/skills/js.png';
 import jest from '../../Assets/skills/jest.png';
-import jquery from '../../Assets/skills/jquery.png';
+import typescript from '../../Assets/skills/typescript.png';
 import less from '../../Assets/skills/less.png';
 import mui from '../../Assets/skills/mui.png';
 import nodejs from '../../Assets/skills/nodejs.png';
@@ -59,9 +59,9 @@ export const skills = [
     href: 'https://expressjs.com/',
   },
   {
-    title: 'jQuery',
-    img: jquery,
-    href: 'https://jquery.com/',
+    title: 'Typescript',
+    img: typescript,
+    href: 'https://www.typescriptlang.org/',
   },
   {
     title: 'Sass',
