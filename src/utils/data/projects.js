@@ -12,7 +12,7 @@ export const projects = [
     {
         img: EVOGYM,
         title: 'EVOGYM',
-        description: 'Modern Fitness App, using mainly Typescript, React, Tailwind and Framer-motion for animations. (In Progress).',
+        description: 'Modern Fitness App, using mainly Typescript, React, Tailwind and Framer-motion for animations.',
         link: 'https://evogym-alejo-ufano.vercel.app/',
         repository: 'https://github.com/AlejoUfano/evogym-typescript'
     },
