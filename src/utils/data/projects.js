@@ -7,6 +7,7 @@ import NFTs from '../../Assets/projects/NFTsAlejoUfano.png'
 import GPT3 from '../../Assets/projects/GPT3AlejoUfano.png'
 import EVOGYM from '../../Assets/projects/EvogymAlejoUfano.png'
 import gerichtRestaurant from '../../Assets/projects/gerichtRestaurantAlejoUfano.png'
+import DeliveryAppReactNative from '../../Assets/projects/DeliveryAppReactNativeAlejoUfano.png'
 
 export const projects = [
     {
@@ -22,6 +23,13 @@ export const projects = [
         description: 'Development of an React NFTs website with multiple functionalities using mainly JS and Bootstrap.',
         link: 'https://nfts-alejo-ufano.vercel.app/home',
         repository: 'https://github.com/AlejoUfano/NFTs'
+    },
+    {
+        img: DeliveryAppReactNative,
+        title: 'Delivery App',
+        description: 'React Native project. Development of a Delivery App using Tailwind, Sanity as an API and multiple libraries for animations, maps, etc',
+        link: 'https://expo.dev/@alejoufano/delivery-app?serviceType=classic&distribution=expo-go',
+        repository: 'https://github.com/AlejoUfano/Delivery-App-React-Native'
     },
     {
         img: GPT3,
