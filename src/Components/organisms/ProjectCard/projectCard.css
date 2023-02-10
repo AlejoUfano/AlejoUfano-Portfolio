@@ -60,7 +60,7 @@
 @media screen and (max-width: 500px) {
     .project__card-container {
         width: 15rem;
-        height: 21rem;
+        height: 24rem;
     }
     .project__title {
         font-size: 1rem;
