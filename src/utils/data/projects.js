@@ -8,6 +8,7 @@ import GPT3 from '../../Assets/projects/GPT3AlejoUfano.png'
 import EVOGYM from '../../Assets/projects/EvogymAlejoUfano.png'
 import gerichtRestaurant from '../../Assets/projects/gerichtRestaurantAlejoUfano.png'
 import DeliveryAppReactNative from '../../Assets/projects/DeliveryAppReactNativeAlejoUfano.png'
+import CRAPPO from '../../Assets/projects/CrappoAlejoUfano.png'
 
 export const projects = [
     {
@@ -16,6 +17,13 @@ export const projects = [
         description: 'Modern Fitness App, using mainly Typescript, React, Tailwind and Framer-motion for animations.',
         link: 'https://evogym-alejo-ufano.vercel.app/',
         repository: 'https://github.com/AlejoUfano/evogym-typescript'
+    },
+    {
+        img: CRAPPO,
+        title: 'Cryptocurrency Web',
+        description: 'The main idea of the project was to test myself. I picked a random web design from Figma and i tried to replicate it as best as i could on a react/typescript responsive app.',
+        link: 'https://crappo-alejo-ufano.vercel.app/',
+        repository: 'https://github.com/AlejoUfano/Cryptocurrency-Website'
     },
     {
         img: NFTs,
