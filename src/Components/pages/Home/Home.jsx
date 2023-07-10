@@ -2,7 +2,6 @@ import React from "react";
 import "./home.css";
 import Social from "../../organisms/Social/Social";
 import Data from "../../organisms/Data/Data";
-import Model from "../../organisms/Model/Model";
 import Droned from "../../organisms/Model/Droned";
 import { motion } from "framer-motion";
 
@@ -27,7 +26,7 @@ const Home = ({ darkmode }) => {
           <div className="info__container">
             <Data />
           </div>
-          {/* {darkmode ? <Model /> : <Droned />} */}
+          <Droned />
         </div>
       </motion.div>
     </div>
