@@ -103,7 +103,13 @@ export const projects = [
   // {
   //     img: forgeApp,
   //     title: 'FORGE',
-  //     description: 'Development the FORGE APP, my most important freelance project........',
-  //     link: 'https://play.google.com/store/apps/details?id=com.alejoufano.forgeapp',
+  //     description: 'Development the FORGE APP, my last and most important freelance project (Full description in google play).',
+  //     link: 'https://play.google.com/store/apps/details?id=com.alejoufano.forgeproject',
+  // },
+  // {
+  //     img: cfbbApp,
+  //     title: 'CFBB Tenis',
+  //     description: 'Development the CFBB Tenis club APP, my first freelance project (Full description in google play).',
+  //     link: 'https://play.google.com/store/apps/details?id=com.alejoufano.cfbbapp',
   // }
 ];
