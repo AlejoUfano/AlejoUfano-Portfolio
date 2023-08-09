@@ -9,8 +9,30 @@ import EVOGYM from "../../Assets/projects/EvogymAlejoUfano.png";
 import gerichtRestaurant from "../../Assets/projects/gerichtRestaurantAlejoUfano.png";
 import DeliveryAppReactNative from "../../Assets/projects/DeliveryAppReactNativeAlejoUfano.png";
 import CRAPPO from "../../Assets/projects/CrappoAlejoUfano.png";
+import forgeApp from "../../Assets/projects/forgeApp.png";
+import cfbbApp from "../../Assets/projects/cfbbApp.png";
 
 export const projects = [
+  {
+    img: forgeApp,
+    title: "FORGE APP",
+    app: true,
+    description:
+      "My most recent and important freelance project, developed mainly with Javascript, React Native, Firebase and Tailwind. (IOS release coming soon).",
+    playstore:
+      "https://play.google.com/store/apps/details?id=com.alejoufano.forgeproject",
+    appstore: "",
+  },
+  {
+    img: cfbbApp,
+    title: "CFBB Tenis",
+    app: true,
+    description:
+      "My first freelance project, developed mainly with Javascript, React Native, Firebase and Tailwind. (IOS release coming soon).",
+    playstore:
+      "https://play.google.com/store/apps/details?id=com.alejoufano.cfbbapp",
+    appstore: "",
+  },
   {
     img: EVOGYM,
     title: "EVOGYM",
@@ -100,16 +122,4 @@ export const projects = [
     link: "https://weather-app-au.vercel.app/",
     repository: "https://github.com/AlejoUfano/WeatherApp",
   },
-  // {
-  //     img: forgeApp,
-  //     title: 'FORGE',
-  //     description: 'Development the FORGE APP, my last and most important freelance project (Full description in google play).',
-  //     link: 'https://play.google.com/store/apps/details?id=com.alejoufano.forgeproject',
-  // },
-  // {
-  //     img: cfbbApp,
-  //     title: 'CFBB Tenis',
-  //     description: 'Development the CFBB Tenis club APP, my first freelance project (Full description in google play).',
-  //     link: 'https://play.google.com/store/apps/details?id=com.alejoufano.cfbbapp',
-  // }
 ];
