@@ -67,7 +67,12 @@ const ProjectCard = ({
             className="storeIcons"
           />
         ) : (
-          <a href={link} className="project__icon">
+          <a
+            href={link}
+            className="project__icon"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <i class="uil uil-external-link-alt"></i>
           </a>
         )}
