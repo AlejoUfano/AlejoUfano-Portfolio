@@ -21,7 +21,7 @@ export const projects = [
       "My most recent and important freelance project, developed mainly with Javascript, React Native, Firebase and Tailwind. (IOS release coming soon).",
     playstore:
       "https://play.google.com/store/apps/details?id=com.alejoufano.forgeproject",
-    appstore: "",
+    appstore: "https://apps.apple.com/us/app/forge/id6456651726",
   },
   {
     img: cfbbApp,
